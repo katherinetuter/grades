@@ -13,15 +13,15 @@ var f = 0
 
 for (var n = 0; n<scores.length; n++){
 	if (scores[n] > 90) {
- 		a = a+1;	
+ 		a ++;	
  	} else if (scores[n] > 80){
- 		b = b+1;
+ 		b ++;
  	} else if (scores[n] > 70){
- 		c = c+1;
+ 		c ++;
  	} else if (scores[n] > 60){
- 		d = d+1;
+ 		d ++;
  	} else
- 		f = f+1;	
+ 		f ++;	
  }
 
 //outputting letter grade totals to console
